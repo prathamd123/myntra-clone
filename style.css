@@ -81,7 +81,7 @@ a {
   position: absolute;
   left: 200px;
   top: 20%;
-  background-image: url("images/banner.jpg");
+  background-image: url("images/banner.png");
   background-size: 100% 100%;
   box-shadow: 3px 4px 15px lightcyan;
   animation: slider 20s infinite alternate;
