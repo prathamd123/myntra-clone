@@ -81,7 +81,7 @@ a {
   position: absolute;
   left: 200px;
   top: 20%;
-  background-image: url("/images/banner.jpg");
+  background-image: url("images/banner.jpg");
   background-size: 100% 100%;
   box-shadow: 3px 4px 15px lightcyan;
   animation: slider 20s infinite alternate;
@@ -89,13 +89,13 @@ a {
 
 @keyframes slider {
   0% {
-    background-image: url("/images/banner.png");
+    background-image: url("images/banner.png");
   }
   50% {
-    background-image: url("/images/banner1.png");
+    background-image: url("images/banner1.png");
   }
   100% {
-    background-image: url("/images/banner.png");
+    background-image: url("images/banner.png");
   }
 }
 
@@ -112,20 +112,20 @@ a {
   position: absolute;
   left: 80px;
   top: 20%;
-  background-image: url("/images/offer\ \(1\).png");
+  background-image: url("images/offer\ \(1\).png");
   background-size: 100% 100%;
   /* box-shadow: 3px 4px 15px lightcyan; */
   animation: offer 5s infinite alternate;
 }
 @keyframes offer {
   0% {
-    background-image: url("/images/offer\ \(1\).png");
+    background-image: url("images/offer\ \(1\).png");
   }
   /* 35% {
-      background-image: url("/images/banner1.png");
+      background-image: url("images/banner1.png");
     } */
   75% {
-    background-image: url("/images/offer\ \(2\).png");
+    background-image: url("images/offer\ \(2\).png");
   }
 }
 
